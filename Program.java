@@ -5,7 +5,9 @@ import exceptions.StringToIntException;
 
 import java.util.Scanner;
 
-
+/**
+ * Точка входа выполнения программы
+ */
 public class Program {
     public static void main(String[] args) {
 //        String personData = "Иванов Иван Иванович 24.05.1978 1234567 m";

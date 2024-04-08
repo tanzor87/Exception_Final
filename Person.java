@@ -1,5 +1,8 @@
 import java.util.Date;
 
+/**
+ * Класс создает тип данных Person
+ */
 public class Person {
     String lastName;
     String firstName;
@@ -8,7 +11,15 @@ public class Person {
     Integer phoneNumber;
     Character sex;
 
-
+    /**
+     * Конструктор класса. Здесь задаются следующие параметры класса:
+     * @param lastName - Фамилия
+     * @param firstName - Имя
+     * @param patronymic - Отчество
+     * @param birthDate - дата рождения
+     * @param phoneNumber - номер телефона
+     * @param sex - пол
+     */
     public Person(String lastName,
                   String firstName,
                   String patronymic,
